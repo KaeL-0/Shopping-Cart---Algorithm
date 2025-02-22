@@ -42,7 +42,7 @@ public:
     bool updateStock(string name, int quantityChange);
     int getStock(string name);
     double getItemPrice(string name);
-/*
+
 private:
 	int countItems(Item* node);
     void collectItems(Item* node, Item** arr, int &index);
@@ -54,7 +54,7 @@ private:
     void updateBSTFromFile();
     Item* findMax(Item* node);
     SoldItem* insertSoldItem(SoldItem* node, string name, int quantity);
-}; */
+};
 
 class Customer {
     CartItem cart[100];
